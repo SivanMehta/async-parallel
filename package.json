@@ -1,25 +1,11 @@
 {
-  "name": "async-parallel",
-  "version": "0.0.0",
-  "description": "async.parallel 2.0",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/*.test.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SivanMehta/async-parallel.git"
-  },
-  "keywords": [
-    "async",
-    "learning"
-  ],
+  "private": true,
   "author": "Sivan Mehta",
   "license": "Unlicense",
-  "bugs": {
-    "url": "https://github.com/SivanMehta/async-parallel/issues"
-  },
-  "homepage": "https://github.com/SivanMehta/async-parallel#readme",
   "devDependencies": {
     "assume": "^2.2.0",
     "mocha": "^6.1.4"
