@@ -22,4 +22,17 @@ describe('parallel', function () {
       done();
     });
   });
+
+  it.only('relays an error if passed by one of the tasks', function (done) {
+    const err = 'excuse me what';
+
+    parallel([
+      f => f(err)
+    ], (error, results) => {
+      assume(error).equals(err);
+      assume(results).is.a('undefined');
+
+      done();
+    });
+  });
 });
