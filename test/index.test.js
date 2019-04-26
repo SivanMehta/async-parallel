@@ -23,7 +23,7 @@ describe('parallel', function () {
     });
   });
 
-  it.only('relays an error if passed by one of the tasks', function (done) {
+  it('relays an error if passed by one of the tasks', function (done) {
     const err = 'excuse me what';
 
     parallel([
