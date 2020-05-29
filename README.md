@@ -45,4 +45,4 @@ parallel({
 npm it
 ```
 
-[`async.parallel`](https://caolan.github.io/async/docs.html#parallel)
+[`async.parallel`]: https://caolan.github.io/async/docs.html#parallel
